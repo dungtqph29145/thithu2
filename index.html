@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            Roboto: " 'Roboto', sans-serif",
+          }
+        }
+      }
+    }
+  </script>
+  <title>Document</title>
+</head>
+<body class="font-Roboto">
+  <div class="wrapper w-full max-w-[1200px] mx-auto my-auto">
+    <div class="header flex justify-between items-center">
+      <div>
+        <img src="./img/Group 11.png" alt="">
+      </div>
+      <div class="menu flex">
+        <ul id="menu" class="flex flex-col gap-8 justify-center w-full items-center h-screen  top-0 left-0 bg-gray-500 invisible z-10 fixed md:visible md:w-auto md:h-auto md:bg-white md:static md:flex md:flex-row md:justify-between md:items-center">
+          <li class="font-normal hover:text-red-500"><a href="">MAIN</a></li>
+          <li class="font-normal hover:text-red-500"><a href="">GALLERY</a></li>
+          <li class="font-normal hover:text-red-500"><a href="">PROJECTS</a></li>
+          <li class="font-normal hover:text-red-500"><a href="">CERTIFICATIONS</a></li>
+          <li class="font-normal hover:text-red-500"><a href="">CONTACTS</a></li>
+        </ul>
+        <div class="z-10">
+          <i id="btn-menu" class="fa-solid fa-bars z-10 md:hidden"></i>
+        </div>
+      </div>
+    </div>
+    <div class="mt-8">
+      <img class="w-full object-coover" src="./img/Rectangle 1.png" alt="">
+    </div>
+    <div class="flex justify-center items-center gap-4 mt-8">
+      <p class="text-[#979797] text-[20px] font-normal md:text-[30px] lg:text-[64px]">PHOTO</p>
+      <p class="text-black text-[20px] font-bold md:text-[30px] lg:text-[64px]">GALLERY</p>
+    </div>
+    <div class="mt-8">
+      <div class="grid grid-cols-2 gap-8 md:grid md:grid-cols-3 md:gap-8 lg:grid lg:grid-cols-4 lg:gap-8 ">
+        <img src="./img/Rectangle 23.png" alt="">
+        <img src="./img/Rectangle 24.png" alt="">
+        <img src="./img/Rectangle 25.png" alt="">
+        <img src="./img/Rectangle 26.png" alt="">
+        <img src="./img/Rectangle 28.png" alt="">
+        <img src="./img/Rectangle 29.png" alt="">
+        <img src="./img/Rectangle 30.png" alt="">
+        <img src="./img/Rectangle 31.png" alt="">
+      </div>
+    </div>
+    <div class="flex justify-center items-center gap-4 mt-8">
+      <p class="text-[#979797] text-[20px] font-normal md:text-[30px] lg:text-[64px]">OUR</p>
+      <p class="text-black text-[20px] font-bold md:text-[30px] lg:text-[64px]">PROJECTS</p>
+    </div>
+    <div class="content flex flex-col gap-4 justify-center items-center md:grid md:grid-cols-2 md:gap-8 lg:grid lg:grid-cols-1 lg:gap-8">
+      <div class="box lg:grid lg:grid-cols-2 lg:gap-8">
+       <div>
+        <img class="w-full" src="./img/Rectangle 32.png" alt="">
+       </div>
+       <div class="flex flex-col gap-4">
+        <p class="text-[#BDBDBD] mt-4 md:mt-4 lg:mt-0 text-[40px]">Sample Project 1</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        <div class="flex flex-row gap-4">
+          <p>View More</p>
+          <p><i class="fa-solid fa-arrow-right"></i></p>
+        </div>
+       </div>
+      </div>
+      <div class="box lg:grid lg:grid-cols-2 lg:gap-8">
+        <div>
+         <img class="w-full" src="./img/Rectangle 33.png" alt="">
+        </div>
+        <div class="flex flex-col gap-4">
+         <p class="text-[#BDBDBD] mt-4 md:mt-4 lg:mt-0 text-[40px]">Sample Project 1</p>
+         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+         <div class="flex flex-row gap-4">
+           <p>View More</p>
+           <p><i class="fa-solid fa-arrow-right"></i></p>
+         </div>
+        </div>
+       </div>
+    </div>
+    <div class="footer flex flex-col gap-4 justify-center items-center md:flex md:flex-row md:justify-between md:items-center bg-black pl-5 py-5 mt-8">
+      <img src="./img/Group 11 1.png" alt="">
+      <p class="text-white md:mr-10">© 2021 All Rights Reserved</p>
+    </div>
+  </div>
+    <script src="main.js"></script>
+</body>
+</html>
